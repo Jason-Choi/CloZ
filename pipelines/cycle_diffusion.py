@@ -1,6 +1,6 @@
 import torch
 from diffusers import CycleDiffusionPipeline, DDIMScheduler
-from config import DEVICE_ID, NUM_IMAGES_PER_PROMPT, NUM_INFERENCE_STEPS, DIFFUSION_PATH
+from config import NUM_IMAGES_PER_PROMPT, NUM_INFERENCE_STEPS, DIFFUSION_PATH
 from PIL.Image import Image
 from typing import List
 import deepspeed
