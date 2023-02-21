@@ -18,7 +18,7 @@ s3 = boto3.resource(
 
 def get_timestamp() -> str:
     now = datetime.now()
-    return now.strftime("%Y%m%d%H%M%S$f")[:-3]
+    return now.strftime("%Y%m%d%H%M%S%f")[:-5]
 
 
 def upload_images(images: List[Image]) -> List[str]:
