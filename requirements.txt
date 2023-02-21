@@ -1,0 +1,8 @@
+torch
+torchvision
+torchaudio
+diffusers
+boto3
+datasets
+transformers
+wandb
